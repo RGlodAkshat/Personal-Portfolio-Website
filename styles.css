@@ -17,12 +17,12 @@ body {
 }
 
 nav {
-    margin-top: 0px;
     background-color: rgb(18, 18, 62);
     display: flex;
     justify-content: space-around;
     align-items: center;
     padding: 7px;
+    width: 100vw;
 }
 
 nav ul {
@@ -63,8 +63,7 @@ a {
 }
 
 .profile {
-    position: absolute;
-    top: 661px;
+    margin-top: 5vh;
     font-size: 28px;
     justify-content: space-around;
     width: 700px;
@@ -72,8 +71,7 @@ a {
 }
 
 .leftSectionButton {
-    position: absolute;
-    top: 550px;
+    margin-top: 5vh;
     margin-left: 8px;
     display: flex;
     gap: 35px;
@@ -125,6 +123,7 @@ a {
 .typed {
     font-size: 25px;
     width: 400px;
+    height: 13vh;
 }
 
 .firstSection .rightSection {
