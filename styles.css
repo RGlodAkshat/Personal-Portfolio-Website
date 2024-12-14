@@ -1,0 +1,709 @@
+* {
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: rgb(0, 0, 33);
+    color: white;
+    font-family: 'Poppins', sans-serif;
+
+
+}
+
+.left {
+    font-size: 32px;
+}
+
+nav {
+    margin-top: 0px;
+    background-color: rgb(18, 18, 62);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 7px;
+}
+
+nav ul {
+    display: flex;
+    justify-content: centre;
+}
+
+nav ul li {
+    list-style: none;
+    margin: 0 23px;
+    font-size: 20px;
+}
+
+nav ul li :hover {
+    color: rgb(189, 186, 186);
+    font-size: 101.3%;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.firstSection {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 21px;
+    margin-bottom: -45px;
+}
+
+.leftSection {
+    font-size: 56px;
+    margin-top: 200px;
+    margin-left: 161px;
+    width: 45%;
+    /* height: 25px; */
+    /* background-color: red; */
+}
+
+.profile {
+    position: absolute;
+    top: 661px;
+    font-size: 28px;
+    justify-content: space-around;
+    width: 700px;
+    /* height: 157px; */
+}
+
+.leftSectionButton {
+    position: absolute;
+    top: 550px;
+    margin-left: 8px;
+    display: flex;
+    gap: 35px;
+}
+
+.leftSectionButton a {
+    display: inline-flex;
+    /* Allow alignment like a button */
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border: solid;
+    border-width: 1px;
+
+}
+
+.button {
+    display: inline-flex;
+    justify-content: center;
+    /* border: solid; */
+    border-color: white;
+    /* border-width: 2px; */
+    align-items: center;
+    border-radius: 7px;
+    font-size: 21px;
+    /* height: ; */
+    padding: 4px;
+    width: 160px;
+    background-color: rgb(42 42 115);
+    color: white;
+    border: none;
+    /* Remove the default border */
+    border-radius: 8px;
+    /* Add rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    /* Add a subtle shadow */
+    cursor: pointer;
+    /* Change cursor to pointer on hover */
+    transition: all 0.3s ease;
+    /* Add smooth transitions */
+}
+
+.button:hover {
+    background-color: rgb(35, 35, 123);
+    color: rgb(235, 235, 235);
+    font-size: 22px;
+    scale: 1.01;
+}
+.typed {
+    font-size: 25px;
+    width: 400px;
+}
+
+.firstSection .rightSection {
+    /* background-color: red; */
+    width: 50%;
+    margin: 49px;
+}
+
+.purple {
+    color: rgb(179, 126, 228);
+}
+
+hr {
+    border: 0;
+    background: rgb(179, 126, 228);
+    height: 3px;
+    margin-left: 150px;
+    margin-right: 140px;
+
+}
+
+
+main .rightSection img {
+    height: 90%;
+}
+
+/* Section2 */
+
+.secondSection {
+    margin-top: 20px;
+    margin-left: 161px;
+    max-width: 80vw;
+}
+
+.secondSection h1 {
+    font-size: 2rem;
+}
+
+.merge {
+    display: flex;
+    gap: 40px;
+    /* padding-bottom: 40px; */
+    /* background-color: rebeccapurple; */
+}
+
+
+.myImage {
+    margin-top: 90px;
+    height: 200px;
+    width: auto;
+    position: relative;
+    z-index: 1;
+    /* Apply the animation */
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    /* Smooth transition for scaling */
+
+
+}
+
+.myImage:hover {
+    transform: scale(1.05);
+    /* Scale image to 110% of its original size */
+    box-shadow: 0 4px 12px rgba(255, 255, 255, 0.2);
+    /* Add a soft glow effect */
+}
+
+.bio {
+    text-align: center;
+    margin-top: 12px;
+    color: gray;
+}
+
+
+.text-gray {
+    color: gray;
+}
+
+.aboutMe {
+    margin-top: 40px;
+    color: white;
+    /* width: 900px; */
+    /* height: 70vh; */
+    font-size: 1.2rem;
+    position: relative;
+    z-index: 1;
+    animation: slideInFromRight 1s ease-out;
+    /* Apply the animation */
+
+
+}
+
+
+
+.section-title h2 {
+    font-size: 30px;
+    font-weight: 500;
+    padding: 0;
+    line-height: 1px;
+    margin-top: 25px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #dee2e6;
+    font-family: "Poppins", sans-serif;
+}
+
+.section-title h2::after {
+    content: "";
+    width: 120px;
+    height: 1px;
+    display: inline-block;
+    background: #dee2e6;
+    margin: 4px 10px;
+}
+
+.section-title p {
+    margin: 0;
+    margin: -15px 0 15px 0;
+    font-size: 36px;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-family: "Poppins", sans-serif;
+    color: #fff;
+}
+
+.SecTwo_bottom {
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-around;
+    gap: 50px;
+    /* height: 580px; */
+
+
+}
+.sedrica {
+    display: flex;
+    /* width: 300px; */
+    justify-content: space-evenly;
+    gap: 46px;
+    text-align: center;
+    margin-top: -20px;
+    margin-left: -104px;
+}
+
+.sedrica-image {
+    margin-top: 80px;
+    margin-left: -30px;
+    height: 180px;
+    width: auto;
+    position: relative;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    /* Smooth transition for scaling */
+
+}
+
+.sedrica-image :hover {
+    scale: 1.05;
+    /* Scale image to 110% of its original size */
+    box-shadow: 0 4px 12px rgba(255, 255, 255, 0.2);
+    /* Add a soft glow effect */
+}
+
+.sedrica-description {
+    text-align: left;
+    width: 55vw;
+    font-size: 1.1rem;
+    /* margin: 2rem auto; */
+    color: #f4f4f4;
+    /* padding: 1.5rem; */
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    line-height: 1.6;
+} 
+
+.sedrica-description h2 {  
+    font-size: 1.8rem;  
+    margin-bottom: 1rem;  
+    color: rgb(179, 126, 228); /* Blue for the title */  
+}  
+
+.sedrica-description p {  
+    margin-bottom: 1rem;  
+    font-size: 1.2rem;  
+    color: #e0e0e0;  
+}  
+
+.sedrica-description ul {  
+    list-style-type: disc;  
+    margin-left: 2rem;  
+}  
+
+.sedrica-description li {  
+    margin-bottom: 0.8rem;  
+    color: #cccccc;  
+}  
+
+.moreSedrica a{
+    margin-top: 5px;
+    color: #167EFA;
+}
+
+
+.education {
+    margin-top: 132px;
+
+}
+
+.education h2 {
+    font-size: 35px;
+    margin-left: 379px;
+}
+
+#education_image {
+    margin-top: 239px;
+    margin-left: -25px;
+    height: 303px;
+    width: auto;
+    border: solid;
+    border-radius: 5px;
+    border-width: 1px;
+    transition: transform 0.3s ease, border-color 0.3s ease;
+}
+
+#education_image:hover {
+    scale: 1.05;
+    border-color: #167EFA;
+    /* Optional: Change border color on hover */
+
+
+}
+
+
+
+
+.timeline {
+    position: relative;
+    max-width: 800px;
+    margin-top: 35px;
+    margin-left: 138px;
+}
+
+.timeline-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    position: relative;
+    gap: 10px;
+}
+
+.IITBImage {
+    height: 60px;
+    width: auto;
+}
+
+.schoolImage {
+    height: 60px;
+    width: auto;
+}
+
+.timeline-date {
+    flex: 0 0 20%;
+    font-size: 16px;
+    color: gray;
+    font-weight: bold;
+    text-align: left;
+    padding-right: 0px;
+}
+
+.timeline-content {
+    flex: 1;
+    background-color: rgb(0, 0, 33);
+    padding: 15px 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    position: relative;
+}
+
+
+
+.timeline-item:last-child::before {
+    height: 50%;
+}
+
+
+
+
+
+/* Lighten the entire timeline item on hover */
+.timeline-item:hover {
+    background-color: rgb(40, 40, 138);
+    transition: background-color 0.3s ease;
+}
+
+/* Highlight specific images (like IITB or School) on hover */
+.timeline-item:hover .IITBImage,
+.timeline-item:hover .schoolImage {
+    filter: brightness(1.5);
+    /* Increase brightness of the image */
+    transition: filter 0.3s ease;
+    /* Smooth transition for hover effect */
+}
+
+/* Highlight the timeline content on hover */
+.timeline-item:hover .timeline-content {
+    background-color: rgb(40, 40, 138);
+    /* Slightly lighter for content */
+    box-shadow: 0 4px 12px rgba(255, 255, 255, 0.2);
+    /* Soft glow effect */
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* Ensure non-hovered timeline items and content stay normal */
+.timeline-item {
+    transition: background-color 0.3s ease, filter 0.3s ease;
+}
+
+.timeline-content {
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* Optionally add a slight shadow to the entire hovered item */
+.timeline-item:hover {
+    box-shadow: 0 4px 12px rgba(255, 255, 255, 0.2);
+    /* Soft glow effect */
+}
+
+/* Ensure the non-hovered images stay normal */
+.IITBImage,
+.schoolImage {
+    filter: brightness(1);
+    transition: filter 0.3s ease;
+}
+
+
+
+
+
+
+/* ThirdSection  */
+.thirdSection {
+    margin-top: 150px;
+    margin-left: 161px;
+}
+
+.thirdSection hr {
+    margin-top: 80px;
+    border: 0;
+    background: rgb(179, 126, 228);
+    height: 3px;
+    margin-left: 0px;
+    margin-right: 110px;
+
+}
+
+.sourceCode {
+    margin-left: 8px;
+    margin-top: 8px;
+    width: 21%;
+    background-color: rgb(21, 21, 50);
+    text-align: center;
+    border: solid;
+    border-radius: 5px;
+    border-width: 1px;
+}
+
+.sourceCode :hover {
+
+    background-color: rgb(46, 46, 66);
+
+}
+
+.details {
+    margin-top: 9px;
+    color: rgb(199, 199, 199);
+}
+
+.skillsets {
+    margin-top: 10px;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.skills {
+    background-color: rgb(64, 64, 143);
+    text-align: center;
+    border: solid;
+    border-radius: 5px;
+    border-width: 1px;
+    margin: 5px;
+    padding: 3px;
+}
+
+.projects {
+    margin-top: 30px;
+    margin-right: 40px;
+    margin-left: -30px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, auto);
+    gap: 83px;
+    margin: auto;
+}
+
+.project {
+    /* text-align: center; */
+    border-radius: 20px;
+    border: solid;
+    border-color: #28292d;
+    border-width: 2px;
+    position: relative;
+    background-color: rgb(19 19 54);
+}
+
+.project h4 {
+    text-align: center;
+}
+
+.project:hover {
+    scale: 1.04;
+    transition: height 1s ease, width 1s ease;
+    /* Adding transition for height and width */
+}
+
+#ChatGPT {
+    margin-left: -82px;
+    height: 640px;
+    width: 611px;
+    padding: 20px;
+
+}
+
+#ChatGPT img {
+    margin-left: -20px;
+    margin-top: 9px;
+    height: 367px;
+    width: auto;
+    border-radius: 9px;
+    transition: height 1s ease, width 1s ease;
+}
+
+#GAN {
+    margin-left: -84px;
+    height: 680px;
+    width: 611px;
+    padding: 20px;
+}
+
+#GAN img {
+    margin-left: -9px;
+    margin-top: 9px;
+    height: 380px;
+    width: auto;
+    border-radius: 9px;
+    transition: height 1s ease, width 1s ease;
+}
+
+
+
+#WebApp {
+    margin-left: -82px;
+    width: 611px;
+    padding: 20px;
+
+}
+
+#WebApp img {
+    margin-left: 0px;
+    margin-top: 9px;
+    height: 400px;
+    width: auto;
+    border-radius: 9px;
+    transition: height 0.3s ease, width 0.3s ease;
+}
+
+#stocks {
+    margin-left: -82px;
+    width: 611px;
+    padding: 20px;
+
+}
+
+#stocks img {
+    margin-left: -20px;
+    margin-top: 9px;
+    height: 311px;
+    width: auto;
+    border-radius: 9px;
+    transition: height 0.3s ease, width 0.3s ease;
+}
+
+
+#satellite {
+    margin-left: -82px;
+    width: 611px;
+    padding: 20px;
+
+}
+
+#satellite img {
+    margin-left: 82px;
+    margin-top: 9px;
+    height: 361px;
+    width: auto;
+    border-radius: 9px;
+    transition: height 0.3s ease, width 0.3s ease;
+}
+
+#car {
+    margin-left: -82px;
+    width: 611px;
+    padding: 20px;
+
+}
+
+#car img {
+    margin-left: -19px;
+    margin-top: 9px;
+    height: 363px;
+    width: auto;
+    border-radius: 9px;
+    transition: height 0.3s ease, width 0.3s ease;
+}
+
+
+
+/* Footer */
+
+
+.footer {
+    margin-top: 60px;
+    background-color: #1a143b;
+    color: #ffffff;
+    padding: 20px;
+    text-align: center;
+    height: 35vh;
+}
+
+.footer-container {
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.contact-info,
+.social-links,
+.site-info {
+    flex: 1;
+    margin: 10px;
+}
+
+h3 {
+    color: #167EFA;
+}
+
+.social-link {
+    color: #ffffff;
+    margin: 0 10px;
+    text-decoration: none;
+    display: inline-flex;
+    align-items: center;
+}
+
+.social-icon {
+    width: 24px;
+    margin-right: 8px;
+}
+
+.copyright {
+    border-top: 1px solid #ffffff;
+    padding-top: 10px;
+    margin-top: 20px;
+}
+
+.heart {
+    color: #ff0000;
+}
+
+.social-links a:hover{
+    color: rgb(190, 187, 201);
+}
+    
