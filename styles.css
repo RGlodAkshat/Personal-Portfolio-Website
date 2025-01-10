@@ -22,7 +22,7 @@ nav {
     justify-content: space-around;
     align-items: center;
     padding: 7px;
-    width: 100vw;
+    width: 100%;
 }
 
 nav ul {
@@ -179,8 +179,6 @@ main .rightSection img {
     /* Apply the animation */
     transition: transform 0.3s ease, box-shadow 0.3s ease;
     /* Smooth transition for scaling */
-
-
 }
 
 .myImage:hover {
@@ -204,16 +202,24 @@ main .rightSection img {
 .aboutMe {
     margin-top: 40px;
     color: white;
-    /* width: 900px; */
-    /* height: 70vh; */
     font-size: 1.2rem;
     position: relative;
     z-index: 1;
     animation: slideInFromRight 1s ease-out;
-    /* Apply the animation */
-
-
+    width: 100%; /* Make width responsive */
+    max-width: 900px; /* Limit the width on larger screens */
+    height: auto; /* Let the height adjust based on content */
+    padding: 20px; /* Add some padding for better readability */
+    box-sizing: border-box; /* Ensure padding doesn't affect the width */
 }
+
+@media (max-width: 600px) {
+    .aboutMe {
+        font-size: 1rem; /* Smaller font size on small screens */
+        padding: 10px; /* Less padding for small screens */
+    }
+}
+
 
 
 
@@ -658,6 +664,7 @@ main .rightSection img {
     padding: 20px;
     text-align: center;
     height: 35vh;
+    width: 100%;
 }
 
 .footer-container {
